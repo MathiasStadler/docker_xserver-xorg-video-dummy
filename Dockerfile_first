@@ -1,0 +1,3 @@
+FROM ubuntu:lastest
+RUN apt-get update && apt-get install -yqq x11-apps
+CMD xeyes
